@@ -1,6 +1,6 @@
 function validEmail(str) {
   //your JS code here.
-	return(/[a-z]*@[a-z]*3\.[a-z \.]/g.test(str))
+	return(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(str))
 }
 
 // Do not change the code below.
